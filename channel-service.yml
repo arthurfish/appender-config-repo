@@ -1,2 +1,10 @@
 appender:
   greeting: "Hello gcx"
+
+spring:
+  application:
+    name: channel-service
+  cloud:
+    config:
+      server:
+        port: 2333
